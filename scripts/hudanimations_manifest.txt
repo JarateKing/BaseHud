@@ -1,5 +1,8 @@
 hudanimations_manifest
 {
+	// custom animations
+	"file"		"scripts/anim_custom.txt"
+
 	// general animations
 	"file"		"scripts/anim_deathfix.txt"
 	"file"      "scripts/anim_uncrating.txt"
