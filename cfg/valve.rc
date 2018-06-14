@@ -5,6 +5,9 @@ r_decal_cullsize 1
 // Setup custom controller
 exec joystick.cfg
 
+// execute the hud settings
+exec hud_always.cfg
+
 // run a user script file if present
 exec autoexec.cfg
 
