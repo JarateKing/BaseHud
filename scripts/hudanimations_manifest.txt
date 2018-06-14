@@ -1,0 +1,6 @@
+hudanimations_manifest
+{
+	// default to override
+	"file"		"scripts/hudanimations.txt"
+	"file"		"scripts/hudanimations_tf.txt"
+}
