@@ -13,6 +13,11 @@ SET "resource_folder=resource\ui\base"
 :: Use HLExtract to get default HUD files ( https://developer.valvesoftware.com/wiki/HLLib#HLExtract )
 IF EXIST "dev\HLExtract.exe" (
 	REM Extracting resource folder (schemes + main menu button actions)
+	echo Extracting scheme files to: %scheme_folder%
+	dev\HLExtract.exe -p "../../tf2_misc_dir.vpk" -d "%scheme_folder%" -e "root\resource\chatscheme.res" -m -v -s
+	dev\HLExtract.exe -p "../../tf2_misc_dir.vpk" -d "%scheme_folder%" -e "root\resource\clientscheme.res" -m -v -s
+	dev\HLExtract.exe -p "../../tf2_misc_dir.vpk" -d "%scheme_folder%" -e "root\resource\gamemenu.res" -m -v -s
+	dev\HLExtract.exe -p "../../tf2_misc_dir.vpk" -d "%scheme_folder%" -e "root\resource\sourcescheme.res" -m -v -s
 	echo Extracting script files to: %script_folder%
 	dev\HLExtract.exe -p "../../tf2_misc_dir.vpk" -d "%script_folder%" -e "root\scripts\hudlayout.res" -m -v -s
 	dev\HLExtract.exe -p "../../tf2_misc_dir.vpk" -d "%script_folder%" -e "root\scripts\hudanimations_tf.txt" -m -v -s
