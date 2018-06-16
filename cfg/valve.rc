@@ -8,6 +8,12 @@ exec joystick.cfg
 // execute the hud settings
 exec hud_always.cfg
 
+// manage the firstrun file
+alias none ""
+alias chud_firstrun "exec hud_firstrun"
+exec hud_has_run.txt
+chud_firstrun
+
 // run a user script file if present
 exec autoexec.cfg
 
