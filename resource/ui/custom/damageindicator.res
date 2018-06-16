@@ -12,5 +12,11 @@
 		"MinimumHeight" "50"
 		"MaximumHeight" "50"
 		"MinimumTime" "1"
+		
+		// MaximumDamage
+		// MaximumTime
+		// TravelTime
+		// FadeOutPercentage
+		// Noise
 	}
 }
