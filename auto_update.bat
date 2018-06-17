@@ -21,6 +21,7 @@ IF EXIST "dev\HLExtract.exe" (
 	echo Extracting script files to: %script_folder%
 	dev\HLExtract.exe -p "../../tf2_misc_dir.vpk" -d "%script_folder%" -e "root\scripts\hudlayout.res" -m -v -s
 	dev\HLExtract.exe -p "../../tf2_misc_dir.vpk" -d "%script_folder%" -e "root\scripts\hudanimations_tf.txt" -m -v -s
+	dev\HLExtract.exe -p "../../tf2_misc_dir.vpk" -d "%script_folder%" -e "root\scripts\mod_textures.txt" -m -v -s
 	
 	IF EXIST "dev\fart.exe" (
 		echo Removing minmode lines
