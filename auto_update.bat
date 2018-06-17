@@ -22,10 +22,15 @@ IF EXIST "dev\HLExtract.exe" (
 	dev\HLExtract.exe -p "../../tf2_misc_dir.vpk" -d "%script_folder%" -e "root\scripts\hudlayout.res" -m -v -s
 	dev\HLExtract.exe -p "../../tf2_misc_dir.vpk" -d "%script_folder%" -e "root\scripts\hudanimations_tf.txt" -m -v -s
 	dev\HLExtract.exe -p "../../tf2_misc_dir.vpk" -d "%script_folder%" -e "root\scripts\mod_textures.txt" -m -v -s
+	echo Extracting resource files to %resource_folder%
+	RMDIR /S /Q %resource_folder%
+	dev\HLExtract.exe -p "../../tf2_misc_dir.vpk" -d "%resource_folder%\.." -e "root\resource\ui" -m -v -s
+	MOVE "%resource_folder%\..\ui" "%resource_folder%"
 	
 	IF EXIST "dev\fart.exe" (
 		echo Removing minmode lines
 		dev\fart.exe -i -r -- %script_folder%\hudlayout.res _minmode _minbad
+		dev\fart.exe -i -r -- %resource_folder%\* _minmode _minbad
 		echo Creating default animation events
 		dev\fart.exe -r -- %script_folder%\hudanimations_tf.txt "event " "event DefaultAnim"
 	) ELSE (
