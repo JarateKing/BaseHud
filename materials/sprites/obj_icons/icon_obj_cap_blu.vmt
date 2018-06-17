@@ -5,7 +5,7 @@
 	"$vertexcolor" 1
 	"$no_fullbright" 1
 	"$ignorez" 1
-	"$detail"		"vgui/replay/thumbnails/cp_icons/icon_obj_white"
+	"$detail"		"vgui/replay/thumbnails/cp_icons/icon_obj_cap_mask"
 	"$detailblendmode"	"9"
 	"$separatedetailuvs"	"1"
 }
