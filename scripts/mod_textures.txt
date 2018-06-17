@@ -1,0 +1,21 @@
+#base "base/mod_textures.txt"
+
+"sprites/640_hud"
+{
+
+	TextureFileRefs
+	{
+		"dfile"
+		{
+			"prefix"		"d_"
+		}
+		"dnegfile"
+		{
+			"prefix"		"dneg_"
+		}
+	}
+	
+	TextureData
+	{
+	}
+}
