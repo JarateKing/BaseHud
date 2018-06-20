@@ -130,10 +130,10 @@
 		"image"			"../sprites/obj_icons/icon_obj_blu_locked"
 	}	
 	
-	"cpiconblumann"
+	"cpiconblumannunlock"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconblumann"
+		"fieldName"		"cpiconblumannunlock"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
@@ -143,7 +143,7 @@
 	"cpiconblumannlock"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconblumann"
+		"fieldName"		"cpiconblumannlock"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
