@@ -137,6 +137,16 @@
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"image"			"../sprites/obj_icons/icon_obj_blu_mannhattan"
+	}
+	
+	"cpiconblumannlock"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"cpiconblumann"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_blu_mannhattan_locked"
 	}
 	
