@@ -180,6 +180,16 @@
 		"image"			"../sprites/obj_icons/icon_obj_neutral"
 	}	
 	
+	"cpiconskullunlock"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"cpiconskullunlock"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/obj_icons/icon_obj_skull_neutral"
+	}
+	
 	"cpiconneutrallock"
 	{
 		"ControlName"	"ImagePanel"
