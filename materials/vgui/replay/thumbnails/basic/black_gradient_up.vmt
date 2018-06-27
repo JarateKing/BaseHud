@@ -7,5 +7,6 @@
 	"$translucent" 		"1"
 
 	"$scale" "[1 1]"
-	"$basetexture" "vgui/replay/thumbnails/basic/black_gradient_up"
+	"$color" "[0 0 0]"
+	"$basetexture" "vgui/replay/thumbnails/basic/white_gradient_up"
 }
