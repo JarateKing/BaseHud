@@ -7,5 +7,5 @@
 	"$translucent" 		"1"
 
 	"$scale" "[1 1]"
-	"$normalmap" "vgui/replay/thumbnails/basic/black_gradient_up"
+	"$basetexture" "vgui/replay/thumbnails/basic/black_gradient_up"
 }
