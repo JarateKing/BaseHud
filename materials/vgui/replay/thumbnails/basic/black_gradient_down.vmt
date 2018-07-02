@@ -8,5 +8,5 @@
 
 	"$scale" "[1 1]"
 	"$color" "[0 0 0]"
-	"$basetexture" "vgui/replay/thumbnails/basic/white_gradient_down"
+	"$basetexture" "vgui/replay/thumbnails/basic/_gradient_down"
 }
