@@ -1,9 +1,10 @@
 // fixes lag issue regarding DamagedPlayer
 // put things in AnimateHitmarker instead
+
 event DamagedPlayer
 {
     StopEvent AnimateHitmarker 0.0
-	RunEvent AnimateHitmarker 0.0
+    RunEvent AnimateHitmarker 0.0
 }
 
 event AnimateHitmarker
