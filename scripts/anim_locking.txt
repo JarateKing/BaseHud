@@ -11,12 +11,21 @@ event MenuClose
 
 event AnimLock
 {
+	//RunEvent RemoveChatBG 0.0
+
 	RunEvent AnimLockLoop 1.0
-	
-	
 }
 
 event AnimLockLoop
 {
 	RunEvent AnimLock 0.0
+}
+
+// example animation locks
+event RemoveChatBG
+{
+	Animate HudChat bgcolor "0 0 0 0" linear 0.0 0.0
+	Animate HudChat bgcolor "0 0 0 0" linear 0.0 100.0
+	Animate HudChatHistory bgcolor "0 0 0 0" linear 0.0 0.0
+	Animate HudChatHistory bgcolor "0 0 0 0" linear 0.0 100.0
 }
