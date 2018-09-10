@@ -6,6 +6,7 @@ hudanimations_manifest
 	// general animations
 	"file"		"scripts/anim_deathfix.txt"
 	"file"      "scripts/anim_uncrating.txt"
+	"file"		"scripts/anim_locking.txt"
 	
 	// default to reference
 	"file"		"scripts/base/hudanimations_tf.txt"
