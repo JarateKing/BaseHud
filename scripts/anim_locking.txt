@@ -1,6 +1,8 @@
 event MenuClose
 {	
 	RunEvent DefaultAnimMenuClose 0.0
+	
+	StopEvent AnimLock 0.0
 	RunEvent AnimLock 0.0
 }
 
