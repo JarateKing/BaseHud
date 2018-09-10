@@ -1,3 +1,6 @@
+// animation locking setup
+// add animations to lock in the AnimLock event
+
 event MenuClose
 {	
 	RunEvent DefaultAnimMenuClose 0.0
@@ -9,6 +12,8 @@ event MenuClose
 event AnimLock
 {
 	RunEvent AnimLockLoop 1.0
+	
+	
 }
 
 event AnimLockLoop
