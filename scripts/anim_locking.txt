@@ -1,0 +1,15 @@
+event MenuClose
+{	
+	RunEvent DefaultAnimMenuClose 0.0
+	RunEvent AnimLock 0.0
+}
+
+event AnimLock
+{
+	RunEvent AnimLockLoop 1.0
+}
+
+event AnimLockLoop
+{
+	RunEvent AnimLock 0.0
+}
