@@ -6,7 +6,7 @@
 	"$ignorez"			"1"
 	"$translucent" 		"1"
 
-	"$scale" "[1 1]"
+	"$basetexturetransform" "center .5 .5 scale 1 1 rotate 270 translate 0 0"
 	"$color" "[0 0 0]"
-	"$basetexture" "vgui/replay/thumbnails/basic/_roundcorner_topright"
+	"$basetexture" "vgui/replay/thumbnails/basic/_roundcorner"
 }
