@@ -8,4 +8,9 @@
 
 	"$basetexturetransform" "center .5 .5 scale 1 1 rotate 270 translate 0 0"
 	"$basetexture" "vgui/replay/thumbnails/basic/_gradient"
+	
+	<dx90
+	{
+		 	"$fallbackmaterial" "vgui/replay/thumbnails/fallback"
+	}
 }
