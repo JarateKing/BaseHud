@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # make all subfolders lowercase
 for d in $(find "." -type d | grep [A-Z] | grep -v fonts); do
