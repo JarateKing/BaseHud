@@ -15,3 +15,5 @@ Starting point for creating custom huds within tf2. Much of the tedious setup is
 * Fixes for certain existing hud materials
 * Custom basic shape materials
 * Custom refract and blur materials with fallbacks
+
+Some of these features involve scripting or programs that are intended for windows. Where possible, linux is also supported.
