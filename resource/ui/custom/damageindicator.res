@@ -13,10 +13,15 @@
 		"MaximumHeight" "50"
 		"MinimumTime" "1"
 		
-		// MaximumDamage
-		// MaximumTime
-		// TravelTime
-		// FadeOutPercentage
-		// Noise
+		// These are included as options
+		// but I don't know what they do
+		// or their defaults values also
+		// they may just do nothing even
+		
+		//"MaximumDamage"
+		//"MaximumTime"
+		//"TravelTime"
+		//"FadeOutPercentage"
+		//"Noise"
 	}
 }
