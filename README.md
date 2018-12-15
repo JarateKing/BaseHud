@@ -7,6 +7,7 @@ To learn more about huds in general, check out [the hud tutorial](https://github
 ## Features
 
 * Auto-update script
+* Reference / base default hud files
 * On-start and on-first-run cfg's
 * Closecaption compiler
 * chat_english language converter
