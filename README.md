@@ -20,3 +20,10 @@ To learn more about huds in general, check out [the hud tutorial](https://github
 * Custom refract and blur materials with fallbacks
 
 Some of these features involve scripting or programs that are intended for windows. Where possible, linux is also supported.
+
+## Modifying
+
+There are multiple options for making use of this:
+* Fork this repo and modify your own copy.
+* Download this and modify.
+* Start from scratch and take whatever parts you find necessary.
