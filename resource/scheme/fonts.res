@@ -2,7 +2,15 @@ Scheme
 {
 	Fonts
 	{
-		
+		"Blank"
+		{
+			"1"
+			{
+				"name" "Blank"
+				"tall" "0"
+				"antialias"	"0"
+			}
+		}
 	}
 	CustomFontFiles
 	{
