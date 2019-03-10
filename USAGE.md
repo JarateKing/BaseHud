@@ -70,3 +70,19 @@ To enable this:
 1. Use `set_cfg.bat` or `setup_cfg.sh` and tell your users to run them too.
 2. If you want to remove the chat bg, uncomment `RunEvent RemoveChatBG 0.0` inside `scripts/anim_locking.txt`.
 3. If you want to do a different anim lock, add it as a new animation inside `scripts/anim_locking.txt` and make the `AnimLock` event run it at time 0.0.
+
+## Localization editing
+
+Localization edits should be done in `resource/chat_english.txt`. These can be new strings, or strings copied over from tf_english.txt and edited.
+
+When all edits that are needed are done, `chat_update_all_to_english.bat` or `chat_update_all_to_english.sh` should be run so that the same applies to all other languages.
+
+## Closecaptions
+
+`resource/closecaption_compile.bat` is provided to allow for customized captions. To do this, edit `resource/closecaption_english.txt` and run the compiler. If there are no errors, this will change closecaption_english.dat.
+
+There is also a dedicated `resource/closecaption_` folder that contains multiple optional closecaptions. To add a new one to this:
+
+1. Copy over your `closecaption_english.txt` and `closecaption_english.dat` into the `closecaption_` folder and rename it appropriately.
+2. Edit `cfg/hud/captions.cfg` to include an alias for your new closecaptions file.
+3. If you want this to be the default, run that alias inside `cfg/hud_firstrun.cfg`.
