@@ -30,3 +30,10 @@ For compatibility with auto-update scripts, the file itself should be nearly emp
 	}
 }
 ```
+
+## Removing Playbutton Dimmer
+
+The screen dimmer that appears when the play button is pressed can be disabled by:
+
+1. Going into `cfg/hud_always.cfg` and uncommenting `hud_remove_dimmer`
+2. Going into `resource/ui/mainmenuoverride.res` and uncommenting `#base "custom/remove_dimmer.res"`
