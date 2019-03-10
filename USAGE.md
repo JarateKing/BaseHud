@@ -31,6 +31,20 @@ For compatibility with auto-update scripts, the file itself should be nearly emp
 }
 ```
 
+## Scheme Editing
+
+Instead of directly editing clientscheme.res, different files exist in the `resource/scheme` folder to edit specific parts. They are:
+
+- borders.res - this defines borders used by clientscheme.res
+- colors.res - this defines colors used by clientscheme.res
+- fonts.res - this defines font declarations and font file references used by clientscheme.res
+
+## Font Editing
+
+Font files themselves are found in `resource/fonts`. Two simple fonts are provided -- a completely blank font, and a common block font.
+
+`resource/scheme/fonts.res` is what's used for loading these fonts, and creating their font declarations.
+
 ## Removing Playbutton Dimmer
 
 The screen dimmer that appears when the play button is pressed can be disabled by:
