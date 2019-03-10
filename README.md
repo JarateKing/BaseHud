@@ -27,3 +27,5 @@ There are multiple options for making use of this:
 * Fork this repo and modify your own copy.
 * Download this and modify.
 * Start from scratch and take whatever parts you find necessary.
+
+For more details on using specific parts of the base hud, check out the [usage](USAGE.md) file.
