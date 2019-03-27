@@ -48,7 +48,7 @@
 		"pinCorner"				"2"
 		"visible"				"1"
 		"visible_minbad"		"1"
-		"ypos_minbad"			"0"
+		"ypos_minbad"			"1"
 		"xpos_minbad"			"0"
 		"textAlignment_minbad"			"west"
 		"enabled"				"1"
