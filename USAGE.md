@@ -86,3 +86,7 @@ There is also a dedicated `resource/closecaption_` folder that contains multiple
 1. Copy over your `closecaption_english.txt` and `closecaption_english.dat` into the `closecaption_` folder and rename it appropriately.
 2. Edit `cfg/hud/captions.cfg` to include an alias for your new closecaptions file.
 3. If you want this to be the default, run that alias inside `cfg/hud_firstrun.cfg`.
+
+For further reference:
+* https://steamcommunity.com/sharedfiles/filedetails/?id=167785751
+* https://www.reddit.com/r/tf2scripthelp/wiki/captions
