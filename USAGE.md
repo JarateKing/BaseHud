@@ -90,3 +90,10 @@ There is also a dedicated `resource/closecaption_` folder that contains multiple
 For further reference:
 * https://steamcommunity.com/sharedfiles/filedetails/?id=167785751
 * https://www.reddit.com/r/tf2scripthelp/wiki/captions
+
+## Cfg's
+
+Inside the cfg folder there are three cfg files:
+1. hud_always.cfg - this will be run whenever the game is started
+2. hud_classswitch.cfg - if the player has set up their cfg's, this will be run whenever the player switches classes
+3. hud_firstrun.cfg - this will be run the first time the game is started with this hud, and never since
