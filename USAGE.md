@@ -94,12 +94,12 @@ For further reference:
 ## Cfg's
 
 Inside the cfg folder there are three cfg files:
-1. hud_always.cfg - this will be run whenever the game is started
-2. hud_classswitch.cfg - if the player has set up their cfg's, this will be run whenever the player switches classes
-3. hud_firstrun.cfg - this will be run the first time the game is started with this hud, and never since
+1. `hud_always.cfg` - this will be run whenever the game is started
+2. `hud_classswitch.cfg` - if the player has set up their cfg's, this will be run whenever the player switches classes
+3. `hud_firstrun.cfg` - this will be run the first time the game is started with this hud, and never since
 
-There is also the valve.rc file. This is run on startup, but should not be edited (hud_always.cfg serves this purpose).
+There is also the `valve.rc` file. This is run on startup and performs some setup for `hud_firstrun.cfg`, but should not be edited (`hud_always.cfg` serves this purpose).
 
-To avoid conflicts with other huds also using this as a base, you may want to change the "save file" that keeps track of whether hud_firstrun.cfg has ran or not. By default this will be 'cfg/hud_has_run.txt' in the root cfg folder (not inside any custom folder). To do this:
-1. change `con_logfile "cfg/hud_has_run.txt"` inside hud_firstrun.cfg.
-2. change `exec hud_has_run.txt` inside valve.rc to the same filename.
+To avoid conflicts with other huds also using this as a base, you may want to change the "save file" that keeps track of whether `hud_firstrun.cfg` has ran or not. By default this will be `cfg/hud_has_run.txt` in the root cfg folder (not inside any custom folder). To do this:
+1. change `con_logfile "cfg/hud_has_run.txt"` inside `hud_firstrun.cfg`.
+2. change `exec hud_has_run.txt` inside `valve.rc` to the same filename.
