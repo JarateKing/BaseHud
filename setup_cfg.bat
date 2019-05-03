@@ -20,6 +20,17 @@ if exist ..\..\cfg\medic_c.cfg ( type dev\ref\add_to_class.cfg >> ..\..\cfg\medi
 if exist ..\..\cfg\sniper_c.cfg ( type dev\ref\add_to_class.cfg >> ..\..\cfg\sniper_c.cfg )
 if exist ..\..\cfg\spy_c.cfg ( type dev\ref\add_to_class.cfg >> ..\..\cfg\spy_c.cfg )
 
+:: matercomfig compatibility futureproofing
+if exist ..\..\cfg\user\scout.cfg ( type dev\ref\add_to_class.cfg >> ..\..\cfg\user\scout.cfg )
+if exist ..\..\cfg\user\soldier.cfg ( type dev\ref\add_to_class.cfg >> ..\..\cfg\user\soldier.cfg )
+if exist ..\..\cfg\user\pyro.cfg ( type dev\ref\add_to_class.cfg >> ..\..\cfg\user\pyro.cfg )
+if exist ..\..\cfg\user\demoman.cfg ( type dev\ref\add_to_class.cfg >> ..\..\cfg\user\demoman.cfg )
+if exist ..\..\cfg\user\heavyweapons.cfg ( type dev\ref\add_to_class.cfg >> ..\..\cfg\user\heavyweapons.cfg )
+if exist ..\..\cfg\user\engineer.cfg ( type dev\ref\add_to_class.cfg >> ..\..\cfg\user\engineer.cfg )
+if exist ..\..\cfg\user\medic.cfg ( type dev\ref\add_to_class.cfg >> ..\..\cfg\user\medic.cfg )
+if exist ..\..\cfg\user\sniper.cfg ( type dev\ref\add_to_class.cfg >> ..\..\cfg\user\sniper.cfg )
+if exist ..\..\cfg\user\spy.cfg ( type dev\ref\add_to_class.cfg >> ..\..\cfg\user\spy.cfg )
+
 :: check all custom folders as well
 for /d %%i in (..\*) do (
 	:: standard class cfg's
@@ -43,4 +54,15 @@ for /d %%i in (..\*) do (
 	if exist %%i\cfg\medic_c.cfg ( type dev\ref\add_to_class.cfg >> %%i\cfg\medic_c.cfg )
 	if exist %%i\cfg\sniper_c.cfg ( type dev\ref\add_to_class.cfg >> %%i\cfg\sniper_c.cfg )
 	if exist %%i\cfg\spy_c.cfg ( type dev\ref\add_to_class.cfg >> %%i\cfg\spy_c.cfg )
+	
+	:: mastercomfig compatibility futureproofing
+	if exist %%i\cfg\user\scout.cfg ( type dev\ref\add_to_class.cfg >> %%i\cfg\user\scout.cfg )
+	if exist %%i\cfg\user\soldier.cfg ( type dev\ref\add_to_class.cfg >> %%i\cfg\user\soldier.cfg )
+	if exist %%i\cfg\user\pyro.cfg ( type dev\ref\add_to_class.cfg >> %%i\cfg\user\pyro.cfg )
+	if exist %%i\cfg\user\demoman.cfg ( type dev\ref\add_to_class.cfg >> %%i\cfg\user\demoman.cfg )
+	if exist %%i\cfg\user\heavyweapons.cfg ( type dev\ref\add_to_class.cfg >> %%i\cfg\user\heavyweapons.cfg )
+	if exist %%i\cfg\user\engineer.cfg ( type dev\ref\add_to_class.cfg >> %%i\cfg\user\engineer.cfg )
+	if exist %%i\cfg\user\medic.cfg ( type dev\ref\add_to_class.cfg >> %%i\cfg\user\medic.cfg )
+	if exist %%i\cfg\user\sniper.cfg ( type dev\ref\add_to_class.cfg >> %%i\cfg\user\sniper.cfg )
+	if exist %%i\cfg\user\spy.cfg ( type dev\ref\add_to_class.cfg >> %%i\cfg\user\spy.cfg )
 )
